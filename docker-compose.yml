@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  shapfurl.api:
+    image: ${DOCKER_REGISTRY-}shapfurlapi
+    build:
+      context: .
+      dockerfile: src/Shapfurl.Api/Dockerfile

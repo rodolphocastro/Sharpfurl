@@ -9,7 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Shapfurl.Api", "src\Shapfurl.Api\Shapfurl.Api.fsproj", "{B55C20C6-2DDA-4D39-82D3-F161AED626C3}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5853E208-1A56-445F-B0B7-FCA8D59EEEF0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B55C20C6-2DDA-4D39-82D3-F161AED626C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55C20C6-2DDA-4D39-82D3-F161AED626C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55C20C6-2DDA-4D39-82D3-F161AED626C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55C20C6-2DDA-4D39-82D3-F161AED626C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5853E208-1A56-445F-B0B7-FCA8D59EEEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5853E208-1A56-445F-B0B7-FCA8D59EEEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5853E208-1A56-445F-B0B7-FCA8D59EEEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5853E208-1A56-445F-B0B7-FCA8D59EEEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
